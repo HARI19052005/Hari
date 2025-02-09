@@ -3,27 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>727723EUIT060 - K Harihara Prabhu</title>
-    <style>
-        body {
-            background-color: lightblue;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-        }
-        .name {
-            font-size: 2em;
-            font-weight: bold;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+    <title>Professional Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="name">Your Name</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="profile-container">
+        <h1>K Harihara Prabhu</h1>
+        <h2>Pursuing Btech Information Technology from Sri krishna college of engineering and technology, Coimbatore</h2>
+        <p class="bio">I am a passionate IT student with innovative and motivational ideas to develop the society in a sustainable manner. I love being myself and love to do things with 100% efficiency.</p>
+        <button class="more-about-btn" onclick="location.href='#about'">More About Me</button>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
 </body>
 </html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px;
+    }
+    .navbar {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar ul li a:hover {
+        text-decoration: underline;
+    }
+    .profile-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        display: inline-block;
+    }
+    .bio {
+        font-size: 16px;
+        color: #555;
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+    .more-about-btn {
+        background-color: #0073b1;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .more-about-btn:hover {
+        background-color: #005f8d;
+    }
+    .social-links a {
+        text-decoration: none;
+        color: #0073b1;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    .social-links a:hover {
+        text-decoration: underline;
+    }
+</style>
